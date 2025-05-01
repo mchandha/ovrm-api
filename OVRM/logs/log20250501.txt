@@ -1,0 +1,138 @@
+2025-05-01 12:03:56.099 +05:30 [INF] User profile is available. Using 'C:\Users\BALU\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-01 12:03:56.482 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44349/swagger - null null
+2025-05-01 12:03:56.782 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-01 12:03:56.783 +05:30 [INF] Hosting environment: Development
+2025-05-01 12:03:56.783 +05:30 [INF] Content root path: C:\Users\BALU\source\repos\OVRM\OVRM
+2025-05-01 12:03:57.246 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44349/swagger/index.html - null null
+2025-05-01 12:03:57.259 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44349/swagger - 301 null null 789.4197ms
+2025-05-01 12:03:57.330 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44349/swagger/index.html - 200 null text/html;charset=utf-8 84.1835ms
+2025-05-01 12:03:57.345 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44349/swagger/swagger-ui-standalone-preset.js - null null
+2025-05-01 12:03:57.345 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44349/swagger/swagger-ui-bundle.js - null null
+2025-05-01 12:03:57.345 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44349/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-01 12:03:57.350 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44349/_vs/browserLink - null null
+2025-05-01 12:03:57.391 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44349/swagger/swagger-ui.css - null null
+2025-05-01 12:03:57.424 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44349/_framework/aspnetcore-browser-refresh.js - 200 16493 application/javascript; charset=utf-8 76.4474ms
+2025-05-01 12:03:57.486 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-05-01 12:03:57.486 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-05-01 12:03:57.488 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44349/swagger/swagger-ui.css - 200 152034 text/css 101.0553ms
+2025-05-01 12:03:57.498 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44349/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 153.326ms
+2025-05-01 12:03:57.502 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-05-01 12:03:57.531 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44349/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 190.6491ms
+2025-05-01 12:03:57.577 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44349/_vs/browserLink - 200 null text/javascript; charset=UTF-8 229.8312ms
+2025-05-01 12:03:57.706 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44349/swagger/v1/swagger.json - null null
+2025-05-01 12:03:57.732 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44349/swagger/favicon-32x32.png - null null
+2025-05-01 12:03:57.733 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-05-01 12:03:57.733 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44349/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 26.9868ms
+2025-05-01 12:03:57.733 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44349/swagger/favicon-32x32.png - 200 628 image/png 1.229ms
+2025-05-01 12:06:50.399 +05:30 [INF] User profile is available. Using 'C:\Users\BALU\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-01 12:06:50.644 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44349/swagger/index.html - null null
+2025-05-01 12:06:50.753 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-01 12:06:50.753 +05:30 [INF] Hosting environment: Development
+2025-05-01 12:06:50.753 +05:30 [INF] Content root path: C:\Users\BALU\source\repos\OVRM\OVRM
+2025-05-01 12:06:50.877 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44349/swagger/index.html - 200 null text/html;charset=utf-8 242.8552ms
+2025-05-01 12:06:50.881 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44349/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-01 12:06:50.886 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44349/_framework/aspnetcore-browser-refresh.js - 200 16493 application/javascript; charset=utf-8 4.3302ms
+2025-05-01 12:06:50.897 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44349/_vs/browserLink - null null
+2025-05-01 12:06:50.938 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44349/_vs/browserLink - 200 null text/javascript; charset=UTF-8 41.1301ms
+2025-05-01 12:06:51.161 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44349/swagger/v1/swagger.json - null null
+2025-05-01 12:06:51.180 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44349/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 18.7188ms
+2025-05-01 12:08:12.995 +05:30 [INF] Request starting HTTP/2 POST https://localhost:44349/api/Auth/login?email=customer2%40gmail.com&password=Cust%40123 - null 0
+2025-05-01 12:08:13.093 +05:30 [INF] Executing endpoint 'OVRM.Controllers.AuthController.Login (OVRM)'
+2025-05-01 12:08:13.140 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String, System.String) on controller OVRM.Controllers.AuthController (OVRM).
+2025-05-01 12:08:14.450 +05:30 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Payment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-01 12:08:14.451 +05:30 [WRN] No store type was specified for the decimal property 'RentPerDay' on entity type 'Vehicle'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-01 12:08:15.634 +05:30 [INF] Executed DbCommand (77ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-05-01 12:08:15.995 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-05-01 12:08:16.005 +05:30 [INF] User customer2@gmail.com logged in successfully
+2025-05-01 12:08:16.047 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IList`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-05-01 12:08:16.071 +05:30 [INF] Executed action OVRM.Controllers.AuthController.Login (OVRM) in 2925.0586ms
+2025-05-01 12:08:16.072 +05:30 [INF] Executed endpoint 'OVRM.Controllers.AuthController.Login (OVRM)'
+2025-05-01 12:08:16.082 +05:30 [INF] Request finished HTTP/2 POST https://localhost:44349/api/Auth/login?email=customer2%40gmail.com&password=Cust%40123 - 200 null application/json; charset=utf-8 3086.7097ms
+2025-05-01 12:08:53.096 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44349/api/Bookings/mybookings - null null
+2025-05-01 12:08:53.175 +05:30 [INF] Executing endpoint 'OVRM.Controllers.BookingsController.GetMyBookings (OVRM)'
+2025-05-01 12:08:53.181 +05:30 [INF] Route matched with {action = "GetMyBookings", controller = "Bookings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetMyBookings() on controller OVRM.Controllers.BookingsController (OVRM).
+2025-05-01 12:08:53.272 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Email], [c].[IdentityUserId], [c].[Name], [c].[Phone]
+FROM [Customers] AS [c]
+WHERE [c].[Email] = @__email_0
+2025-05-01 12:08:53.352 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@__customer_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[CustomerId], [b].[EndDate], [b].[IsDelivery], [b].[StartDate], [b].[Status], [b].[VehicleId], [v].[Id], [v].[Brand], [v].[IsAvailable], [v].[Model], [v].[RentPerDay], [v].[Type]
+FROM [Bookings] AS [b]
+INNER JOIN [Vehicles] AS [v] ON [b].[VehicleId] = [v].[Id]
+WHERE [b].[CustomerId] = @__customer_Id_0
+2025-05-01 12:08:53.423 +05:30 [INF] Found 7 bookings for customer ID: 1
+2025-05-01 12:08:53.426 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[OVRM.DTO.BookingResponseDTO, OVRM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-01 12:08:53.433 +05:30 [INF] Executed action OVRM.Controllers.BookingsController.GetMyBookings (OVRM) in 251.7101ms
+2025-05-01 12:08:53.433 +05:30 [INF] Executed endpoint 'OVRM.Controllers.BookingsController.GetMyBookings (OVRM)'
+2025-05-01 12:08:53.433 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44349/api/Bookings/mybookings - 200 null application/json; charset=utf-8 337.2704ms
+2025-05-01 12:09:09.622 +05:30 [INF] Request starting HTTP/2 POST https://localhost:44349/api/Bookings - application/json 126
+2025-05-01 12:09:09.627 +05:30 [INF] Executing endpoint 'OVRM.Controllers.BookingsController.BookVehicle (OVRM)'
+2025-05-01 12:09:09.631 +05:30 [INF] Route matched with {action = "BookVehicle", controller = "Bookings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[OVRM.Models.Booking]]] BookVehicle(OVRM.DTO.BookingCreateDTO) on controller OVRM.Controllers.BookingsController (OVRM).
+2025-05-01 12:09:09.733 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-05-01 12:09:09.773 +05:30 [INF] Executed action OVRM.Controllers.BookingsController.BookVehicle (OVRM) in 141.3164ms
+2025-05-01 12:09:09.773 +05:30 [INF] Executed endpoint 'OVRM.Controllers.BookingsController.BookVehicle (OVRM)'
+2025-05-01 12:09:09.774 +05:30 [INF] Request finished HTTP/2 POST https://localhost:44349/api/Bookings - 400 null application/problem+json; charset=utf-8 151.8815ms
+2025-05-01 12:09:34.480 +05:30 [INF] Request starting HTTP/2 POST https://localhost:44349/api/Bookings - application/json 126
+2025-05-01 12:09:34.482 +05:30 [INF] Executing endpoint 'OVRM.Controllers.BookingsController.BookVehicle (OVRM)'
+2025-05-01 12:09:34.483 +05:30 [INF] Route matched with {action = "BookVehicle", controller = "Bookings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[OVRM.Models.Booking]]] BookVehicle(OVRM.DTO.BookingCreateDTO) on controller OVRM.Controllers.BookingsController (OVRM).
+2025-05-01 12:09:34.523 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@__email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Email], [c].[IdentityUserId], [c].[Name], [c].[Phone]
+FROM [Customers] AS [c]
+WHERE [c].[Email] = @__email_0
+2025-05-01 12:09:34.530 +05:30 [INF] Creating booking for vehicle ID: 2 by customer ID: 1
+2025-05-01 12:09:34.725 +05:30 [INF] Executed DbCommand (14ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Boolean), @p3='?' (DbType = DateTime2), @p4='?' (DbType = Int32), @p5='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Bookings] ([CustomerId], [EndDate], [IsDelivery], [StartDate], [Status], [VehicleId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2025-05-01 12:09:34.760 +05:30 [INF] Booking created successfully
+2025-05-01 12:09:34.762 +05:30 [INF] Executing OkObjectResult, writing value of type 'OVRM.DTO.BookingResponseDTO'.
+2025-05-01 12:09:34.763 +05:30 [INF] Executed action OVRM.Controllers.BookingsController.BookVehicle (OVRM) in 279.9028ms
+2025-05-01 12:09:34.763 +05:30 [INF] Executed endpoint 'OVRM.Controllers.BookingsController.BookVehicle (OVRM)'
+2025-05-01 12:09:34.763 +05:30 [INF] Request finished HTTP/2 POST https://localhost:44349/api/Bookings - 200 null application/json; charset=utf-8 283.4429ms
+2025-05-01 12:11:14.682 +05:30 [INF] Request starting HTTP/2 POST https://localhost:44349/api/Auth/login?email=customer23%40gmail.com&password=Cust%40123 - null 0
+2025-05-01 12:11:14.685 +05:30 [INF] Executing endpoint 'OVRM.Controllers.AuthController.Login (OVRM)'
+2025-05-01 12:11:14.685 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String, System.String) on controller OVRM.Controllers.AuthController (OVRM).
+2025-05-01 12:11:14.698 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-05-01 12:11:14.699 +05:30 [WRN] Invalid login attempt for user: customer23@gmail.com
+2025-05-01 12:11:14.700 +05:30 [INF] Executing UnauthorizedObjectResult, writing value of type 'System.String'.
+2025-05-01 12:11:14.700 +05:30 [INF] Executed action OVRM.Controllers.AuthController.Login (OVRM) in 14.9591ms
+2025-05-01 12:11:14.701 +05:30 [INF] Executed endpoint 'OVRM.Controllers.AuthController.Login (OVRM)'
+2025-05-01 12:11:14.701 +05:30 [INF] Request finished HTTP/2 POST https://localhost:44349/api/Auth/login?email=customer23%40gmail.com&password=Cust%40123 - 401 null text/plain; charset=utf-8 21.2907ms
+2025-05-01 13:01:45.968 +05:30 [INF] User profile is available. Using 'C:\Users\BALU\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-01 13:01:46.176 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44349/swagger/index.html - null null
+2025-05-01 13:01:46.239 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-01 13:01:46.240 +05:30 [INF] Hosting environment: Development
+2025-05-01 13:01:46.240 +05:30 [INF] Content root path: C:\Users\BALU\source\repos\OVRM\OVRM
+2025-05-01 13:01:46.388 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44349/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-01 13:01:46.388 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44349/_vs/browserLink - null null
+2025-05-01 13:01:46.388 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44349/swagger/index.html - 200 null text/html;charset=utf-8 218.3969ms
+2025-05-01 13:01:46.393 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44349/_framework/aspnetcore-browser-refresh.js - 200 16493 application/javascript; charset=utf-8 4.1557ms
+2025-05-01 13:01:46.423 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44349/_vs/browserLink - 200 null text/javascript; charset=UTF-8 35.5714ms
+2025-05-01 13:01:46.451 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44349/swagger/v1/swagger.json - null null
+2025-05-01 13:01:46.464 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44349/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 13.0827ms
+2025-05-01 13:02:04.363 +05:30 [INF] Request starting HTTP/2 POST https://localhost:44349/api/Auth/login?email=cust23&password=ass - null 0
+2025-05-01 13:02:04.426 +05:30 [INF] Executing endpoint 'OVRM.Controllers.AuthController.Login (OVRM)'
+2025-05-01 13:02:04.447 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String, System.String) on controller OVRM.Controllers.AuthController (OVRM).
+2025-05-01 13:02:05.049 +05:30 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Payment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-01 13:02:05.050 +05:30 [WRN] No store type was specified for the decimal property 'RentPerDay' on entity type 'Vehicle'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-01 13:02:05.453 +05:30 [INF] Executed DbCommand (40ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-05-01 13:02:05.470 +05:30 [ERR] Invalid login attempt for user: cust23
+2025-05-01 13:02:05.475 +05:30 [INF] Executing UnauthorizedObjectResult, writing value of type 'System.String'.
+2025-05-01 13:02:05.478 +05:30 [INF] Executed action OVRM.Controllers.AuthController.Login (OVRM) in 1029.2785ms
+2025-05-01 13:02:05.479 +05:30 [INF] Executed endpoint 'OVRM.Controllers.AuthController.Login (OVRM)'
+2025-05-01 13:02:05.485 +05:30 [INF] Request finished HTTP/2 POST https://localhost:44349/api/Auth/login?email=cust23&password=ass - 401 null text/plain; charset=utf-8 1122.1766ms

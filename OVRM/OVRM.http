@@ -1,0 +1,6 @@
+@OVRM_HostAddress = http://localhost:5115
+
+GET {{OVRM_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
