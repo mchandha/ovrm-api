@@ -1,0 +1,30 @@
+# ASP.NET Core
+bin/
+obj/
+out/
+
+# User-specific files
+.vs/
+.idea/
+.vscode/
+
+# ASP.NET Core Environment variables
+appsettings.Development.json
+appsettings.Local.json
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Dd]ist/
+[Dd]ev/
+
+# User-specific build configurations
+.vscode/
+
+# .NET Core SDK
+.vscode/
+global.json
+
+# ASP.NET Core config files
+project.lock.json
+project.fragment.lock.json
