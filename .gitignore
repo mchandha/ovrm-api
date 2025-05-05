@@ -1,30 +1,46 @@
-# ASP.NET Core
+## Build artifacts
 bin/
 obj/
 out/
+*.dll
+*.exe
 
-# User-specific files
-.vs/
-.idea/
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## OS-generated files
+.DS_Store
+Thumbs.db
+
+## Logs
+logs/
+*.log
+
+## Visual Studio
 .vscode/
+.vs/
+*.code-workspace
 
-# ASP.NET Core Environment variables
+## ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+## Secrets
+secrets.json
 appsettings.Development.json
 appsettings.Local.json
 
-# Build results
-[Dd]ebug/
-[Dd]ebugPublic/
-[Dd]ist/
-[Dd]ev/
+## NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
 
-# User-specific build configurations
-.vscode/
+## EF Core Migrations backup files
+*.bak
 
-# .NET Core SDK
-.vscode/
-global.json
-
-# ASP.NET Core config files
-project.lock.json
-project.fragment.lock.json
+## Rider
+.idea/
+*.sln.iml
