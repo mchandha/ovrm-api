@@ -1,0 +1,164 @@
+{
+	"info": {
+		"_postman_id": "f96feef0-d799-4087-86c0-96bab1dc877b",
+		"name": "OVRM API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44467988",
+		"_collection_link": "https://balu-8467695.postman.co/workspace/Balu's-Workspace~434d005a-1ba8-4de0-83e4-365762dc72f3/collection/44467988-f96feef0-d799-4087-86c0-96bab1dc877b?action=share&source=collection_link&creator=44467988"
+	},
+	"item": [
+		{
+			"name": "/api/auth/login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"customer1@gmail.com\",\r\n  \"password\": \"Cust@123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44349/api/Auth/login",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44349",
+					"path": [
+						"api",
+						"Auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Vehicles",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:44349/api/Vehicles",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44349",
+					"path": [
+						"api",
+						"Vehicles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Booking",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "Token",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"vehicleId\": 2,\r\n  \"startDate\": \"2025-05-06T06:39:00.828Z\",\r\n  \"endDate\": \"2025-05-07T06:39:00.828Z\",\r\n  \"isDelivery\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44349/api/bookings",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44349",
+					"path": [
+						"api",
+						"bookings"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Payment",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "Token",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"bookingId\": 9,\r\n  \"paymentMethod\": \"UPI\",\r\n  \"transactionId\": \"\",\r\n  \"status\": \"Completed\",\r\n  \"currency\": \"Rupee\",\r\n  \"amount\": 3000,\r\n  \"paymentDate\": \"2025-05-06T06:49:28.854Z\",\r\n  \"paymentDetails\": \"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44349/api/Bookings/payment",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44349",
+					"path": [
+						"api",
+						"Bookings",
+						"payment"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
