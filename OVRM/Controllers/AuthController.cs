@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using OVRM.Data;
+using OVRM.DTO;
 using OVRM.Models;
 
 namespace OVRM.Controllers
@@ -31,10 +32,10 @@ namespace OVRM.Controllers
 
         [Authorize(Roles = "Admin")]
         [HttpPost("register-admin")]
-        public async Task<IActionResult> RegisterAdmin(string email, string password)
+        public async Task<IActionResult> RegisterAdmin(RegisterAdminDTO registerAdminDTO)
         {
-            var user = new IdentityUser { UserName = email, Email = email };
-            var result = await _userManager.CreateAsync(user, password);
+            var user = new IdentityUser { UserName = registerAdminDTO.Email, Email = registerAdminDTO.Email };
+            var result = await _userManager.CreateAsync(user, registerAdminDTO.Password);
             if (result.Succeeded)
             {
                 const string role = "Admin";
@@ -52,26 +53,26 @@ namespace OVRM.Controllers
 
 
         [HttpPost("register")]
-        public async Task<IActionResult> Register(string email, string password, string fullName, string phone, string role = "Customer")
+        public async Task<IActionResult> Register(RegisterCustomerDTO registerCustomerDTO)
         {
-            var user = new IdentityUser { UserName = email, Email = email, PhoneNumber = phone };
-            var result = await _userManager.CreateAsync(user, password);
+            var user = new IdentityUser { UserName = registerCustomerDTO.Email, Email = registerCustomerDTO.Email, PhoneNumber = registerCustomerDTO.PhoneNumber };
+            var result = await _userManager.CreateAsync(user, registerCustomerDTO.Password);
             if (result.Succeeded)
             {
-                if (!await _roleManager.RoleExistsAsync(role))
-                    await _roleManager.CreateAsync(new IdentityRole(role));
+                if (!await _roleManager.RoleExistsAsync(registerCustomerDTO.Role))
+                    await _roleManager.CreateAsync(new IdentityRole(registerCustomerDTO.Role));
 
-                await _userManager.AddToRoleAsync(user, role);
+                await _userManager.AddToRoleAsync(user, registerCustomerDTO.Role);
 
                 // Save customer info if role is Customer
-                if (role == "Customer")
+                if (registerCustomerDTO.Role == "Customer")
                 {
                     var customer = new Customer
                     {
                         IdentityUserId = user.Id,
-                        Name = fullName,
-                        Email = email,
-                        Phone = phone
+                        Name = registerCustomerDTO.FullName,
+                        Email = registerCustomerDTO.Email,
+                        Phone = registerCustomerDTO.PhoneNumber
                     };
                     _context.Customers.Add(customer);
                     await _context.SaveChangesAsync();
@@ -85,19 +86,19 @@ namespace OVRM.Controllers
 
 
         [HttpPost("login")]
-        public async Task<IActionResult> Login(string email, string password)
+        public async Task<IActionResult> Login([FromBody] LoginDto loginDto)
         {
-            var user = await _userManager.FindByEmailAsync(email);
-            if (user == null || !await _userManager.CheckPasswordAsync(user,password))
+            var user = await _userManager.FindByEmailAsync(loginDto.Email);
+            if (user == null || !await _userManager.CheckPasswordAsync(user, loginDto.Password))
             {
-                _logger.LogError("Invalid login attempt for user: {Email}", email);
+                _logger.LogError("Invalid login attempt for user: {Email}", loginDto.Email);
                 return Unauthorized("Invalid credentials");
             }
-            
+
             var roles = await _userManager.GetRolesAsync(user);
-            var authClaims=new List<Claim>
+            var authClaims = new List<Claim>
             {
-                new Claim(ClaimTypes.Name, user.UserName),
+                new Claim(ClaimTypes.Name, user.UserName ?? string.Empty), // Ensure non-null value
                 new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
             };
 
@@ -110,13 +111,13 @@ namespace OVRM.Controllers
                 claims: authClaims,
                 signingCredentials: new SigningCredentials(new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"])), SecurityAlgorithms.HmacSha256)
             );
-            _logger.LogInformation("User {Email} logged in successfully", email);
+            _logger.LogInformation("User {Email} logged in successfully", loginDto.Email);
             return Ok(new
             {
                 token = new JwtSecurityTokenHandler().WriteToken(token),
                 expiration = token.ValidTo,
                 roles
-            }); 
+            });
         }
 
     }
